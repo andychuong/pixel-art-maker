@@ -1,4 +1,5 @@
 var container = document.getElementById("boxbox");
+var current = document.getElementsByClassName("colors currentcolor")[0];
 for (var i = 0; i < 1200; i++) {
    container.innerHTML += '<div class="box whitebox"></div>';
 }
@@ -49,5 +50,6 @@ document.addEventListener('click', function(e){
 document.addEventListener('click', function(e){
 	if(e.target.parentElement.id === 'colorcolor'){
     brushcolor = e.target.id;
+		current.id = e.target.id;
   }
 });
