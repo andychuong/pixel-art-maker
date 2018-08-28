@@ -9,29 +9,42 @@ var brushcolor = 'whitecolor';
 //Change red box
 document.addEventListener('click', function(e){
 	if(e.target.parentElement.id === 'boxbox'){
+		if(brushcolor === "pinkcolor"){
+    	e.target.className = 'box pinkbox';
+    }else
     if(brushcolor === "redcolor"){
     	e.target.className = 'box redbox';
     }else
+		if(brushcolor === 'burlycolor'){
+    	e.target.className = 'box burlybox';
+    }else
 		if(brushcolor === 'orangecolor'){
     	e.target.className = 'box orangebox';
-    }
-		else
+    }else
+		if(brushcolor === 'khakicolor'){
+    	e.target.className = 'box khakibox';
+    }else
 		if(brushcolor === 'yellowcolor'){
     	e.target.className = 'box yellowbox';
-    }
-		else
+    }else
 		if(brushcolor === 'greencolor'){
     	e.target.className = 'box greenbox';
-    }
-		else
+    }else
+		if(brushcolor === 'mediumgreencolor'){
+    	e.target.className = 'box mediumgreenbox';
+    }else
+		if(brushcolor === 'deepbluecolor'){
+    	e.target.className = 'box deepbluebox';
+    }else
 		if(brushcolor === 'bluecolor'){
     	e.target.className = 'box bluebox';
-    }
-		else
+    }else
+		if(brushcolor === 'mediumpurplecolor'){
+    	e.target.className = 'box mediumpurplebox';
+    }else
 		if(brushcolor === 'purplecolor'){
     	e.target.className = 'box purplebox';
-    }
-		else
+    }else
 		if(brushcolor === 'blackcolor'){
     	e.target.className = 'box blackbox';
     }else

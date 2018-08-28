@@ -8,7 +8,6 @@ body{
   text-align:center;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 #boxbox{
@@ -22,27 +21,44 @@ body{
 }
 .box{
   display:inline-block;
-  /* border: 1px solid black; */
   width:20px;
   height:20px;
   padding: 0px;
   margin: 0px 2px 0px 2px;
 }
 
+.pinkbox{
+  background-color: pink;
+}
 .redbox{
   background-color: red;
+}
+.burlybox{
+  background-color: burlywood;
 }
 .orangebox{
   background-color: orange;
 }
+.khakibox{
+  background-color: khaki;
+}
 .yellowbox{
   background-color: yellow;
+}
+.mediumgreenbox{
+  background-color: MediumSpringGreen;
 }
 .greenbox{
   background-color: green;
 }
+.deepbluebox{
+  background-color:deepskyblue;
+}
 .bluebox{
   background-color:blue;
+}
+.mediumpurplebox{
+  background-color: mediumpurple;
 }
 .purplebox{
   background-color: purple;
@@ -72,7 +88,6 @@ body{
 
 .colors{
   display:inline-block;
-  /* border: 1px solid black; */
   width:40px;
   height:40px;
   padding: 0px;
@@ -80,21 +95,38 @@ body{
   border-radius: 20px;
 
 }
-
+#pinkcolor{
+  background-color:pink;
+}
 #redcolor{
   background-color:red;
+}
+#burlycolor{
+  background-color:BurlyWood;
 }
 #orangecolor{
   background-color:orange;
 }
+#khakicolor{
+  background-color:khaki;
+}
 #yellowcolor{
   background-color:yellow;
+}
+#mediumgreencolor{
+  background-color: MediumSpringGreen;
 }
 #greencolor{
   background-color:green;
 }
+#deepbluecolor{
+  background-color:deepskyblue;
+}
 #bluecolor{
   background-color:blue;
+}
+#mediumpurplecolor{
+  background-color:mediumpurple;
 }
 #purplecolor{
   background-color:purple;
@@ -110,4 +142,20 @@ body{
 }
 #browncolor{
   background-color:brown;
+}
+
+#currentblock{
+  font-size:1.5em;
+}
+
+#currentText{
+  margin-bottom:10px;
+}
+.currentcolor{
+  width:25px;
+  height:25px;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: inline-block;
+
 }
