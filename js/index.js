@@ -18,6 +18,9 @@ document.addEventListener('click', function(e){
 		if(brushcolor === 'burlycolor'){
     	e.target.className = 'box burlybox';
     }else
+		if(brushcolor === 'browncolor'){
+    	e.target.className = 'box brownbox';
+    }else
 		if(brushcolor === 'orangecolor'){
     	e.target.className = 'box orangebox';
     }else
@@ -53,9 +56,6 @@ document.addEventListener('click', function(e){
     }else
 		if(brushcolor === 'whitecolor'){
     	e.target.className = 'box whitebox';
-    }else
-		if(brushcolor === 'browncolor'){
-    	e.target.className = 'box brownbox';
     }
   }
 });

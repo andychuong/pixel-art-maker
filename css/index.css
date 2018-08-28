@@ -34,6 +34,9 @@ body{
 .redbox{
   background-color: red;
 }
+.brownbox{
+  background-color: brown;
+}
 .burlybox{
   background-color: burlywood;
 }
@@ -73,9 +76,7 @@ body{
 .whitebox{
   background-color:white;
 }
-.brownbox{
-  background-color: brown;
-}
+
 
 #colorcolor{
   width: 960px;
@@ -101,6 +102,9 @@ body{
 }
 #redcolor{
   background-color:red;
+}
+#browncolor{
+  background-color:brown;
 }
 #burlycolor{
   background-color:BurlyWood;
@@ -141,9 +145,7 @@ body{
 #whitecolor{
   background-color:white;
 }
-#browncolor{
-  background-color:brown;
-}
+
 
 #currentblock{
   font-size:1.5em;
