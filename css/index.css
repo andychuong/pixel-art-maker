@@ -1,14 +1,7 @@
-body, html
-{
-  width: 100%;
-  height: 100%;
-  padding: 0px;
-  margin: 0px;
-  outline: 0;
 
-}
 #container{
-  width:50px;
+  width:1050px;
+  overflow:auto;
   text-align:center;
   margin-left: auto;
   margin-right: auto;
@@ -16,20 +9,21 @@ body, html
 }
 
 #boxbox{
-  width: 92px;
+  width: 960px;
   /* border: 5px solid grey; */
   padding:10px 10px 10px 10px;
-  margin: 0;
   background-color:grey;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .box{
   display:inline-block;
   border: 1px solid black;
-  width:40px;
-  height:40px;
+  width:20px;
+  height:20px;
   padding: 0px;
-  margin: 0px;
+  margin: 0px 1px 0px 1px;
 }
 
 .redbox{
@@ -63,17 +57,11 @@ body, html
   background-color: brown;
 }
 
-
-
-#colorcolor{  width: 92px;
-  /* border: 5px solid grey; */
-  padding:20px 20px 20px 20px;
-  margin: 0;
-  background-color:grey;
-  width: 92px;
-  /* border: 5px solid grey; */
+#colorcolor{
+  width: 960px;
   padding:10px 10px 10px 10px;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   background-color:grey;
 }
 

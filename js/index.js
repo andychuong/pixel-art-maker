@@ -1,3 +1,8 @@
+var container = document.getElementById("boxbox");
+for (var i = 0; i < 1200; i++) {
+   container.innerHTML += '<div class="box whitebox"></div>';
+}
+
 var brushcolor = 'whitecolor';
 
 //Change red box
